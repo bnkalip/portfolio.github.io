@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>My Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="myportfolio.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<body class="w3-light-grey">
+
+<!-- nav -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-animate-right w3-top w3-text-light-grey w3-large" style="z-index:3;width:250px;font-weight:bold;display:none;right:0;" id="mySidebar">
+  <a href="javascript:void()" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-32 w3-margin-top">&times;</a> 
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">PORTFOLIO</a> 
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">ABOUT ME</a> 
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">CONTACT</a>
+</nav>
+
+<!-- logo -->
+
+
+<header class="w3-container w3-top w3-white w3-xlarge w3-padding-32 w3-margin-bottom">
+  <img src="/whitebleach.gif" style="width: 90px;">
+  <img src="/lgo.png" style="width: 70px;" class="lgo">
+
+  <a href="javascript:void(0)" class="w3-right w3-button w3-white w3-margin-top" onclick="w3_open()">☰</a>
+  <p class="lgotx">DESIGN | PLAN | DEVELOP</p>
+
+</header>
+
+
+
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+
+<div class="w3-main w3-content" style="max-width:1600px;margin-top:130px">
+  
+  <!-- myworks -->
+  <div class="w3-row">
+    <div class="w3-quarter">
+      <img src="/15297725715_b3dec5a992_o copy.jpg" style="width:100%" onclick="onClick(this)">
+      <img src="/16363688289_d69fa4c804_o copy.jpg" style="width:100%" onclick="onClick(this)">
+      <img src="/profile3.jpg" style="width:100%" onclick="onClick(this)">
+    </div>
+    
+    <div class="w3-quarter">
+      <img src="/DSC_0035.JPG" style="width:100%" onclick="onClick(this)">
+      <img src="/DSC_002222.png" style="width:100%" onclick="onClick(this)" >
+      <img src="/DSC_0022 copy.jpg" style="width:100%" onclick="onClick(this)">
+    </div>
+    
+    <div class="w3-quarter">
+      <img src="/IMG_20201113_145626.jpg" style="width:100%" onclick="onClick(this)">
+      <img src="/IMG_20201113_145709.jpg" style="width:100%" onclick="onClick(this)">
+      <img src="/Project - Drawing 1259912181.png" style="width:100%" onclick="onClick(this)">
+    </div>
+
+    <div class="w3-quarter">
+      <img src="/blue.png" style="width:100%" onclick="onClick(this)">
+      <img src="/white.png" style="width:100%" onclick="onClick(this)">
+      <img src="/green.png" style="width:100%" onclick="onClick(this)">
+    </div>
+  </div>
+
+      
+  <div class="w3-center">
+    <video class="vid1" controls><source src="12031048_724827777648048_320678069_n.mp4" type="video/mp4"></video>
+    <video class="vid2" controls><source src="12638250_826593300796076_2136592959_n.mp4" type="video/mp4"></video>
+  </div>
+
+  <!-- Modal-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+  
+
+
+
+  <button onclick="topFunction()" id="myTop"><i class="fa fa-arrow-up"></i></button>
+  <!-- About-->
+  <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
+    <h4><b>About Me</b></h4>
+    <img src="/image.jpg" alt="Me" class="w3-image w3-padding-32" width="400" height="450">
+    <h2><span class="animate"></span></h2>
+    <div class="w3-content w3-justify" style="max-width:600px">
+      
+      <p>Hello, I'm Van Cleef Adlawan from Cebu City, Philippines
+        I'm a Junior Web Designer / Frontend Web Developer and
+        I'm also a Carpenter Skill trade on Industrial Field and 
+        motivating to look for a new career as a Web Developer/Designer.
+        I'm still on the edge of my perspective to be 
+        Senior Web Developer someday. 
+        I develop my skills in creative design, 
+        honing my web development and detail to detail attitude.
+      </p>
+      <p><i class="fa fa-google w3-hover-opacity"></i> bnkalipadlawan@gmail.com</p>
+      <p><i class="fa fa-phone w3-hover-opacity"></i> 09568905405</p>
+      <hr class="w3-opacity">
+      <h4 class="w3-padding-16">Technical Skills</h4>
+      <p class="w3-wide">Photography</p>
+      <div class="w3-white">
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:40%">40%</div>
+      </div>
+      <p class="w3-wide">Web Design | Web Development</p>
+      <div class="w3-white">
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:40%">40%</div>
+      </div>
+      <p class="w3-wide">Arts | Graphics | Designs</p>
+
+      
+
+      <div class="w3-white">
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:40%">40%</div>
+      </div>
+      <p>
+        <a href="/vancleefresume.pdf" download>
+          <button class="w3-button w3-light-grey w3-padding-large w3-margin-top w3-margin-bottom w3-hover-black">
+            <i class="fa fa-download w3-hover-opacity"></i> Download Resume
+          </button>
+        </a>
+      </p>
+      <hr class="w3-opacity">
+      </div>
+    </div>
+  </div>
+  <div class="w3-container w3-center  w3-grey">
+    <img src="/html.png" class="icn">
+    <img src="/cssss.png" class="icn">
+    <img src="/js.png" class="icn">
+    <img src="/adddbe.png" class="icn">
+    <img src="/ps.png" class="icn">
+    <img src="/ai.png" class="icn">
+    <img src="lr.png" class="icn">
+    <img src="/aee.png" class="icn">
+    <img src="/xd.png" class="icn">
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-grey">  
+    <div class="w3-row-padding">
+      <div class="w3-third">
+        <h3>START A PROJECT</h3>
+        <h3>I'm Ready for the Challenge</h3>
+        <p><i class="fa fa-google w3-hover-opacity"></i>: bnkalipadlawan@gmail.com</p>
+        <p><i class="fa fa-phone w3-hover-opacity"></i> 09568905405</p>      
+      </div>
+    </div>
+  </footer>
+  
+
+
+
+  <button class="w3-button w3-light-grey w3-hover-black lets" id="contact" onclick="document.getElementById('id01').style.display='block'">
+   Let's do this! <i class="fa fa-arrow-right w3-hover-opacity"></i>
+  </button>
+
+  <div id="id01" class="mdal"> 
+    <form class="modal-content animet" action="/action_page.php" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="close modal">&times;</span>
+        <img src="/avtr1.png" alt="avatar" class="avatar">
+        <img src="/avtr2.png" alt="avatar" class="avatar">
+      </div>
+
+      <div class="w3-content w3-padding-large">
+        <h4 class="w3-center"><b>Let's talk</b></h4>
+        <p class="w3-center">I'm here to <b>RESOLVE</b> you're <b>PROJECT</b></p>
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-section">
+            <label>Name</label>
+            <input class="w3-input w3-border" type="text" name="Name" required>
+          </div>
+          <div class="w3-section">
+            <label>Email</label>
+            <input class="w3-input w3-border" type="email" name="Email" required>
+          </div>
+          <div class="w3-section">
+            <label>Message</label>
+            <input class="w3-input w3-border" type="text" name="Message" required>
+          </div>
+          <button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">Send Message</button>
+        </form>
+      </div>
+
+    </form>    
+  </div>
+
+
+
+
+  
+  <div class="w3-black w3-center w3-padding-32 w3-large gif">
+    <img src="/effectround.gif" style="width: 200px;">
+  </div>
+  <p class="lsttext w3-center"><b>©vancleefadlawan2020</b></p>
+
+
+  <div class="a-social-bar">
+    <a href="https://www.facebook.com/vancleef.adlawan" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.gmail.com" target="_blank"><i class="fa fa-google w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/van-cleef-adlawan-33237b1a5" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+
+</div>
+
+<!-- End page-->
+</div>
+
+
+
+
+
+<!--type-->
+<script src="typed.js"></script>
+<script>
+  var typed = new Typed('.animate', {
+    strings: [
+      "I'm a Frontend Developer",
+      "I'm a Web Designer",
+      "I'm a UI | UX Designer",
+
+    ],
+    typeSpeed: 50,
+    backSpeed: 50,
+    loop: true
+  });
+</script>
+
+
+
+
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
+<script>
+  let mybutton = document.getElementById("myTop");
+
+  window.onscroll = function () {
+      scrollFuntion()
+  };
+  function scrollFuntion() {
+      if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+          mybutton.style.display = "block";
+      }
+      else {
+          mybutton.style.display = "none";
+      }
+  }
+
+
+  function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+  }
+</script>
+
+<!--modalform-->
+<script>
+    var modal = document.getElementById('id01');
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+
+</script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

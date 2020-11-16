@@ -1,0 +1,210 @@
+
+html {
+    scroll-behavior: smooth;
+}
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+
+
+.w3-sidebar a:hover {
+    text-decoration: none;
+}
+
+.w3-container a:hover {
+    text-decoration: none;
+}
+
+
+.lgo {
+    margin-left: -86px;
+    
+    
+}
+.lgotx {
+    margin-top: -67px;
+    margin-left: 83px;
+
+}
+
+.w3-row {
+    overflow: hidden;
+}
+
+.w3-quarter {
+    overflow: hidden;
+}
+
+.w3-quarter  img {
+    transition: transform 0.5s ease;
+    -webkit-transition: -webkit-transform 0.5s ease;
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+.w3-quarter  img:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+
+video {
+    width: 500px;
+    height: auto;
+    display: table;
+    margin-top: 2px;
+}
+
+
+
+
+
+.icn {
+    display: inline-table;
+    width: 100px;
+    height: 100px;
+    margin-top: -20px;
+
+}
+
+
+.animate{
+  
+    transform: translate(-50%,-50%);
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+ 
+}
+
+
+
+.a-social-bar {
+    position: fixed;
+    top: 80%;
+    right: 0px;
+    transform: translateY(-50%);
+}
+
+.a-social-bar a {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    line-height: 0;
+    background-color: #fff;
+    border: 1px solid #cbcbcb;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.a-social-bar a:hover {
+    text-decoration: none;
+}
+
+.a-social-bar i {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 200ms ease;
+} 
+
+
+#myTop {
+    display: none;
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    bottom:20px;
+    right:  0;
+    z-index: 99;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    border: 5px;
+}
+
+#myTop:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+/*modalform*/
+
+.lets {
+    width: 100%;
+    font-size: 35px;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 20px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 20%;
+
+}
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 2px;
+
+}
+
+
+.mdal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid rgb(189, 188, 188);
+    width: 80%;
+
+}
+
+
+
+.animet {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s;
+}
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0);}
+    to {-webkit-transform: scale(0);}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0);}
+    to {transform: scale(1);}
+}
+
+
+
+.lsttext {
+    color: white;
+
+    margin-top: -115px;
+}
